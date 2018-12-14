@@ -54,10 +54,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
-     <Compile Include="Assets\GesturesDemo\Scripts\CubeGestureListener.cs" />
-     <Compile Include="Assets\GesturesDemo\Scripts\CubePresentationScript.cs" />
-     <Compile Include="Assets\GesturesDemo\Scripts\ModelGestureListener.cs" />
-     <Compile Include="Assets\GesturesDemo\Scripts\ModelPresentationScript.cs" />
      <Compile Include="Assets\KinectScripts\AvatarController.cs" />
      <Compile Include="Assets\KinectScripts\AvatarControllerClassic.cs" />
      <Compile Include="Assets\KinectScripts\BackgroundRemovalManager.cs" />
@@ -101,31 +97,135 @@
      <Compile Include="Assets\KinectScripts\SpeechErrorHandler.cs" />
      <Compile Include="Assets\KinectScripts\SpeechManager.cs" />
      <Compile Include="Assets\KinectScripts\VisualGestureManager.cs" />
+     <Compile Include="Assets\KUBIKOS - World\Demo\Scripts\LoadSceneByName.cs" />
+     <Compile Include="Assets\KUBIKOS - World\Demo\Scripts\Test.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Components\BloomComponent.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Components\FogComponent.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Components\GrainComponent.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Components\TaaComponent.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Models\BloomModel.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Models\DitheringModel.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Models\FogModel.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Models\GrainModel.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Models\UserLutModel.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Models\VignetteModel.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\PostProcessingComponent.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\PostProcessingContext.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\PostProcessingModel.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\PostProcessingProfile.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+     <Compile Include="Assets\KUBIKOS - World\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Cube.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\PlayerGestureListener.cs" />
      <Compile Include="Assets\Scripts\SceneController.cs" />
      <Compile Include="Assets\Scripts\Scripts.cs" />
      <Compile Include="Assets\Scripts\SingletonBehavior.cs" />
+     <Compile Include="Assets\Scripts\SoundController.cs" />
      <Compile Include="Assets\Scripts\UIController.cs" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\DepthOfField.shader" />
      <None Include="Assets\Resources\BlurShader.shader" />
      <None Include="Assets\Demigiant\DOTweenPro\readme.txt" />
+     <None Include="Assets\KUBIKOS - World\Shaders\PlaneWater_Shader.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\Fog.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\LutGen.shader" />
+     <None Include="Assets\KUBIKOS - World\Shaders\Lava_Shader.shader" />
      <None Include="Assets\Resources\DepthShader.shader" />
      <None Include="Assets\Demigiant\DemiLib\Core\DemiLib.xml" />
      <None Include="Assets\Resources\SpeechGrammar.grxml.txt" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+     <None Include="Assets\KUBIKOS - World\Shaders\Cloud_Shader.shader" />
      <None Include="Assets\Resources\BlurShader3.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
      <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\KUBIKOS - World\Shaders\Fog_Shader.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\ACES.cginc" />
      <None Include="Assets\Resources\Color2DepthShader.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\Uber.shader" />
      <None Include="Assets\Resources\BlurShader2.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\Blit.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
      <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\_CCHARACTERS\villarger_B_Boy\ReadMe [V 1.4]  02 06.txt" />
+     <None Include="Assets\KUBIKOS - World\Shaders\Water_Shader.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+     <None Include="Assets\KUBIKOS - World\Shaders\Magma_Shader.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\Common.cginc" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
      <None Include="Assets\Resources\Depth2ColorShader.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Editor Resources\UI\Trackball.shader" />
+     <None Include="Assets\KUBIKOS - World\Shaders\Sun_Shader.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\Bloom.cginc" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\TAA.shader" />
      <None Include="Assets\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\TAA.cginc" />
      <None Include="Assets\Resources\Erode.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
      <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\GrainGen.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\FXAA.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+     <None Include="Assets\KUBIKOS - World\Shaders\Ice_Shader.shader" />
      <None Include="Assets\Resources\BodyShader.shader" />
      <None Include="Assets\Resources\Dilate.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\Bloom.shader" />
+     <None Include="Assets\KUBIKOS - World\Shaders\WaterGreen_Shader.shader" />
+     <None Include="Assets\KUBIKOS - World\Shaders\Surface_Shader.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
      <None Include="Assets\Resources\Color2BodyShader.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+     <None Include="Assets\KUBIKOS - World\Shaders\PlaneLava_Shader.shader" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+     <None Include="Assets\KUBIKOS - World\Shaders\CustomStandardSpecular.shader" />
      <None Include="Assets\Demigiant\readme_DOTweenPro.txt" />
+     <None Include="Assets\KUBIKOS - World\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>E:/Unity Projects/Work Projects/JumpGame/JumpGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
@@ -336,26 +436,20 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>F:/unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+ <Reference Include="DemiLib">
+ <HintPath>E:/Unity Projects/Work Projects/JumpGame/JumpGame/Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.StandardEvents">
- <HintPath>C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+ <Reference Include="DOTween">
+ <HintPath>E:/Unity Projects/Work Projects/JumpGame/JumpGame/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>E:/Unity Projects/Work Projects/JumpGame/JumpGame/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
  </Reference>
  <Reference Include="DOTween46">
  <HintPath>E:/Unity Projects/Work Projects/JumpGame/JumpGame/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="DOTween50">
  <HintPath>E:/Unity Projects/Work Projects/JumpGame/JumpGame/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
- </Reference>
- <Reference Include="DemiLib">
- <HintPath>E:/Unity Projects/Work Projects/JumpGame/JumpGame/Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
- </Reference>
- <Reference Include="DOTween43">
- <HintPath>E:/Unity Projects/Work Projects/JumpGame/JumpGame/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
- </Reference>
- <Reference Include="DOTween">
- <HintPath>E:/Unity Projects/Work Projects/JumpGame/JumpGame/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTweenPro">
  <HintPath>E:/Unity Projects/Work Projects/JumpGame/JumpGame/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
@@ -365,6 +459,12 @@
  </Reference>
  <Reference Include="ICSharpCode.SharpZipLib">
  <HintPath>E:/Unity Projects/Work Projects/JumpGame/JumpGame/Assets/KinectScripts/SharpZipLib/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>F:/unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
